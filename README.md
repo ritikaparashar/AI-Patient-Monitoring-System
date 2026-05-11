@@ -24,6 +24,18 @@ The system is designed around four core capabilities:
 | Runtime performance | 24.3 FPS average integrated throughput |
 | Occupancy direction | Approximately 97% directional accuracy |
 
+## Outputs and Results
+
+The following outputs show the integrated computer vision pipeline across occupancy monitoring, fall detection, spatial mapping, and person re-identification.
+
+### Occupancy Monitoring and Fall Detection
+
+![Occupancy monitoring and fall detection results](media/results/occupancy-and-fall-detection-results.png)
+
+### Spatial Mapping and Re-Identification
+
+![Spatial mapping and re-identification results](media/results/spatial-mapping-and-re-identification-results.png)
+
 ## System Architecture
 
 ```text
@@ -151,4 +163,3 @@ This repository documents the project architecture, methodology, performance res
 - Integrate alert notifications with hospital communication systems
 - Add temporal motion analysis to better separate bed movement from fall events
 - Package modules into a dashboard-ready real-time inference service
-
