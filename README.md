@@ -152,14 +152,6 @@ pip install -r requirements.txt
 
 Place local videos using the structure described in `data/README.md`. Raw videos, model weights, experiment outputs, and tracking runs are ignored by Git.
 
-## Current Status
+## Repository Scope
 
-This repository documents the project architecture, methodology, performance results, and expected implementation structure. Source files can be added under `src/patient_monitoring/` when the implementation code is available.
-
-## Possible Extensions
-
-- Extend the system to multi-camera patient room monitoring
-- Add real-time alert notifications for caregiver dashboards
-- Improve re-identification accuracy under similar clothing and low-light conditions
-- Add temporal motion analysis to better separate bed movement from fall events
-- Package the pipeline into a deployable real-time monitoring service
+This repository presents the system architecture, methodology, visual outputs, evaluation results, and reproducible setup notes for the AI-enhanced patient monitoring pipeline. Raw video datasets and large model artifacts are kept outside Git to keep the repository lightweight and easy to review.
