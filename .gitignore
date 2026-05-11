@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+dist/
+build/
+*.egg-info/
+
+# Notebooks and local artifacts
+.ipynb_checkpoints/
+.DS_Store
+
+# Large media and datasets
+data/raw_videos/
+data/videos/
+data/**/*.mp4
+data/**/*.avi
+data/**/*.mov
+data/**/*.mkv
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model weights and experiment outputs
+*.pt
+*.pth
+*.onnx
+*.engine
+weights/
+models/
+runs/
+outputs/
+checkpoints/
+
+# Logs
+*.log
+logs/
+
