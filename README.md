@@ -156,10 +156,10 @@ Place local videos using the structure described in `data/README.md`. Raw videos
 
 This repository documents the project architecture, methodology, performance results, and expected implementation structure. Source files can be added under `src/patient_monitoring/` when the implementation code is available.
 
-## Future Improvements
+## Possible Extensions
 
-- Improve re-identification robustness for similar clothing and poor lighting
-- Add multi-camera support for larger room and ward coverage
-- Integrate alert notifications with hospital communication systems
+- Extend the system to multi-camera patient room monitoring
+- Add real-time alert notifications for caregiver dashboards
+- Improve re-identification accuracy under similar clothing and low-light conditions
 - Add temporal motion analysis to better separate bed movement from fall events
-- Package modules into a dashboard-ready real-time inference service
+- Package the pipeline into a deployable real-time monitoring service
